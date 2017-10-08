@@ -2,10 +2,10 @@
  <head><title>Join & Upload Presentation</title></head></p> <p>
  <body>
  <%@ include file="bbb_api.jsp"%> 
- <%@ include file="demo_header.jsp"%>
+ <%@ include file="menu.jsp"%>
 
 <h2>Join & Upload Presentation</h2> 
-	 <form action="menu.jsp" method="post" enctype="multipart/form-data" name="form1" id="form1">
+	 <form action="demo7.jsp" method="post" enctype="multipart/form-data" name="form1" id="form1">
 			<table cellpadding="5" cellspacing="5" style="width: 400px;">
 				<tbody>
 					<tr>
