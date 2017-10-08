@@ -88,7 +88,7 @@ with BigBlueButton; if not, If not, see <http://www.gnu.org/licenses/>.
 		// Assume we want to create a meeting
 		//
 %>
-	<h2 align="center">Join a Course (Recorded)</h2>
+	<h2 align="center">Enregistrer une conference</h2>
 
 	<form id="formcreate" name="formcreate" method="get" action=""> 		
 		<div>
