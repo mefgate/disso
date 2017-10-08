@@ -43,7 +43,7 @@ Author: Fred Dixon <ffdixon@bigbluebutton.org>
 		//
 %>
 
-<%@ include file="demo_header.jsp"%>
+<%@ include file="menu.jsp"%>
 
 <h2>Join Selected</h2>
 
