@@ -47,14 +47,14 @@ Author: Islam El-Ashi <ielashi@gmail.com>
 
 <%@ include file="bbb_api.jsp"%>
 
-<%@ include file="demo_header.jsp"%>
+<%@ include file="menu.jsp"%>
 
 
 <%
 if (request.getParameterMap().isEmpty()) {
 %>
 
-<h2>Activity Monitor</h2>
+<h2 align="center">Activity Monitor</h2>
 
 <p id="no_meetings"></p>
 

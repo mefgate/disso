@@ -54,8 +54,8 @@ Author: Fred Dixon <ffdixon@bigbluebutton.org>
 		// Assume we want to create a meeting
 		//
 %>
-<%@ include file="demo_header.jsp"%>
-<h2>Create Your Own Meeting</h2>
+<%@ include file="menu.jsp"%>
+<h2 align="center">Create Your Own Meeting</h2>
 
 <p />
 <FORM NAME="form1" METHOD="GET">

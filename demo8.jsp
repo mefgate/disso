@@ -15,9 +15,9 @@
 		presentations.put( "presentation3.pdf", "pdfs/presentation3.pdf" );
 %>
 
-<%@ include file="demo_header.jsp"%>
+<%@ include file="menu.jsp"%>
 
-<h2>Join & Upload Presentation (URL)</h2> 
+<h2 align="center">Join & Upload Presentation (URL)</h2> 
 		<FORM NAME="form1" METHOD="GET">
 			<table cellpadding="5" cellspacing="5" style="width: 400px;">
 				<tbody>

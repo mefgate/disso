@@ -80,7 +80,7 @@ with BigBlueButton; if not, If not, see <http://www.gnu.org/licenses/>.
 <%@ include file="bbb_api.jsp"%>
 <%@ page import="java.util.regex.*"%>
 
-<%@ include file="demo_header.jsp"%>
+<%@ include file="menu.jsp"%>
 
 <%
 	if (request.getParameterMap().isEmpty()) {
@@ -88,7 +88,7 @@ with BigBlueButton; if not, If not, see <http://www.gnu.org/licenses/>.
 		// Assume we want to create a meeting
 		//
 %>
-	<h2>Join a Course (Recorded)</h2>
+	<h2 align="center">Join a Course (Recorded)</h2>
 
 	<form id="formcreate" name="formcreate" method="get" action=""> 		
 		<div>
