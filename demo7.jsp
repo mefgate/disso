@@ -46,7 +46,7 @@
 	<%@ page import="org.apache.commons.fileupload.servlet.ServletFileUpload"%>
 	<%@ page import="org.apache.commons.fileupload.disk.DiskFileItemFactory"%>
 	<%@ page import="org.apache.commons.fileupload.*"%>
-	<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+	<!-- <%@ page contentType="text/html;charset=UTF-8" language="java" %> -->
 	<%@page import="sun.security.provider.SHA"%>
 	<%@page import="org.apache.commons.codec.binary.Base64"%>
 	<%@page import="java.security.MessageDigest"%>
