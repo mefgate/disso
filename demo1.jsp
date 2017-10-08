@@ -27,7 +27,7 @@ if (request.getParameterMap().isEmpty()) {
 	// Assume we want to create a meeting
 	//
 	%> 
-<%@ include file="menu.jsp"%>
+<%@ include file="demo_header.jsp"%>
 
 <h2>Video Conference</h2>
 
