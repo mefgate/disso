@@ -29,7 +29,7 @@ if (request.getParameterMap().isEmpty()) {
 	%> 
 <%@ include file="menu.jsp"%>
 
-<h2>           Video Conference</h2>
+<h2 align="center">Video Conference</h2>
 
 
 <FORM NAME="form1" METHOD="GET"> 
