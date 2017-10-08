@@ -4,7 +4,7 @@
  <%@ include file="bbb_api.jsp"%> 
  <%@ include file="menu.jsp"%>
 
-<h2>Join & Upload Presentation</h2> 
+<h2 align="center">Join & Upload Presentation</h2> 
 	 <form action="demo7.jsp" method="post" enctype="multipart/form-data" name="form1" id="form1">
 			<table cellpadding="5" cellspacing="5" style="width: 400px;">
 				<tbody>
