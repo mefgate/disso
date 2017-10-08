@@ -19,7 +19,7 @@ Author: Mef Diagne
 
 <div class="w3-sidebar w3-bar-block w3-black w3-card-2" style="width:130px">
   <h5 class="w3-bar-item">Menu</h5>
-  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Fade')">Creer conference</button>
+  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'create.jsp')">Creer conference</button>
   <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Left')">Rejoindre une conference</button>
   <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Right')">Rejoindre une conference existente</button>
   <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Top')">Mot de Passe conference</button>
