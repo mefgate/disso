@@ -44,9 +44,9 @@ if (request.getParameterMap().isEmpty()) {
 	// Assume we want to create a meeting
 	//
 	%> 
-<%@ include file="menu.jsp"%>
+<%@ include file="demo_header.jsp"%>
 
-<h2 align="center">Demo #1: Join a Course</h2>
+<h2>Demo #1: Join a Course</h2>
 
 
 <FORM NAME="form1" METHOD="GET"> 
