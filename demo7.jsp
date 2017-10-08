@@ -2,9 +2,9 @@
  <head><title>Join & Upload Presentation</title></head></p> <p>
  <body>
  <%@ include file="bbb_api.jsp"%> 
- <%@ include file="menu.jsp"%>
+ <%@ include file="demo_header.jsp"%>
 
-<h2 >Join & Upload Presentation</h2> 
+<h2>Join & Upload Presentation</h2> 
 	 <form action="demo7.jsp" method="post" enctype="multipart/form-data" name="form1" id="form1">
 			<table cellpadding="5" cellspacing="5" style="width: 400px;">
 				<tbody>
@@ -46,7 +46,7 @@
 	<%@ page import="org.apache.commons.fileupload.servlet.ServletFileUpload"%>
 	<%@ page import="org.apache.commons.fileupload.disk.DiskFileItemFactory"%>
 	<%@ page import="org.apache.commons.fileupload.*"%>
-	<!-- <%@ page contentType="text/html;charset=UTF-8" language="java" %> -->
+	<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 	<%@page import="sun.security.provider.SHA"%>
 	<%@page import="org.apache.commons.codec.binary.Base64"%>
 	<%@page import="java.security.MessageDigest"%>
