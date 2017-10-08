@@ -45,7 +45,7 @@ Author: Fred Dixon <ffdixon@bigbluebutton.org>
 
 <%@ include file="menu.jsp"%>
 
-<h2>Join Selected</h2>
+<h2 align="center">Rejoindre une conference</h2>
 
 
 <FORM NAME="form1" METHOD="GET">
