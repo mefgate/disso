@@ -19,7 +19,7 @@ Author: Mef Diagne
 
 <div class="w3-sidebar w3-bar-block w3-black w3-card-2" style="width:130px">
   <h5 class="w3-bar-item">Menu</h5>
-  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, '<a href="create.jsp"></a>')">Creer conference</button>
+  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Fade')">Creer conference</button>
   <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Left')">Rejoindre une conference</button>
   <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Right')">Rejoindre une conference existente</button>
   <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Top')">Mot de Passe conference</button>
@@ -34,7 +34,7 @@ Author: Mef Diagne
 <div style="margin-left:130px">
   <div class="w3-padding">Selectionnez votre type de video-conference</div>
 
-  <div id="Fade" class="w3-container city w3-animate-opacity" style="display:none">
+  <div id="Fade" <a href="create.jsp"></a> class="w3-container city w3-animate-opacity" style="display:none">
     <h2>Creer conference </h2>
     <p>London is the capital city of England.</p>
     <p>It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
