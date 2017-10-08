@@ -36,62 +36,52 @@ Author: Mef Diagne
 
   <div id="Fade" <a href="create.jsp"></a> class="w3-container city w3-animate-opacity" style="display:none">
     <h2>Creer conference </h2>
-    <p>London is the capital city of England.</p>
-    <p>It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    
   </div>
 
   <div id="Left" class="w3-container city w3-animate-opacity" style="display:none">
     <h2>Rejoindre une conference</h2>
-    <p>Paris is the capital of France.</p> 
-    <p>The Paris area is one of the largest population centers in Europe, with more than 12 million inhabitants.</p>
+    
   </div>
 
   <div id="Top" class="w3-container city w3-animate-opacity" style="display:none">
     <h2>Rejoindre une conference existente</h2>
-    <p>Tokyo is the capital of Japan.</p>
-    <p>It is the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>
+    
   </div>
 
   <div id="Right" class="w3-container city w3-animate-opacity" style="display:none">
     <h2>Mot de Passe conference</h2>
-    <p>London is the capital city of England.</p>
-    <p>It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+  
   </div>
 
   <div id="Bottom" class="w3-container city w3-animate-opacity" style="display:none">
     <h2>rejoindre et charger fichier</h2>
-    <p>Paris is the capital of France.</p> 
-    <p>The Paris area is one of the largest population centers in Europe, with more than 12 million inhabitants.</p>
+    
   </div>
 
   <div id="Zoom" class="w3-container city w3-animate-opacity" style="display:none">
     <h2>Rejoindre avec URL (URL)</h2>
-    <p>Tokyo is the capital of Japan.</p>
-    <p>It is the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>
+    
   </div>
 
   <div id="Zoom" class="w3-container city w3-animate-opacity" style="display:none">
     <h2>Enregistrer conference</h2>
-    <p>Tokyo is the capital of Japan.</p>
-    <p>It is the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>
+    
   </div>
 
   <div id="Zoom" class="w3-container city w3-animate-opacity" style="display:none">
     <h2>Design</h2>
-    <p>Tokyo is the capital of Japan.</p>
-    <p>It is the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>
+    
   </div>
 
   <div id="Zoom" class="w3-container city w3-animate-opacity" style="display:none">
     <h2>Joindre depuis Mobile</h2>
-    <p>Tokyo is the capital of Japan.</p>
-    <p>It is the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>
+    
   </div>
 
 <div id="Zoom" class="w3-container city w3-animate-opacity" style="display:none">
     <h2>Activity Monitor</h2>
-    <p>Tokyo is the capital of Japan.</p>
-    <p>It is the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>
+    
   </div>
 </div>
 
