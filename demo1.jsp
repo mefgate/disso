@@ -19,7 +19,7 @@ Author: Mef Diagne
 
 <body>
 
-<%@ include file="menu.jsp"%>
+<%@ include file="bbb_api.jsp"%>
 
 <% 
 if (request.getParameterMap().isEmpty()) {
@@ -27,7 +27,7 @@ if (request.getParameterMap().isEmpty()) {
 	// Assume we want to create a meeting
 	//
 	%> 
-<%@ include file="demo_header.jsp"%>
+<%@ include file="menu.jsp"%>
 
 <h2>Video Conference</h2>
 
