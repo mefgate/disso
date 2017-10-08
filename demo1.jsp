@@ -19,7 +19,7 @@ Author: Mef Diagne
 
 <body>
 
-<%@ include file="bbb_api.jsp"%>
+<%@ include file="menu.jsp"%>
 
 <% 
 if (request.getParameterMap().isEmpty()) {
