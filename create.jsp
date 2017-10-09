@@ -55,7 +55,7 @@ Author: Fred Dixon <ffdixon@bigbluebutton.org>
 		//
 %>
 <%@ include file="menu.jsp"%>
-<h2 align="center">Create Your Own Meeting</h2>
+<h2 align="center">Creer votre conference</h2>
 
 <p />
 
@@ -65,7 +65,6 @@ Author: Fred Dixon <ffdixon@bigbluebutton.org>
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
         <hgroup>
-          <h1 class="free">Creer votre conference</h1>
           <h1 class="free">Entrez votre nom</h1>
          </hgroup>
          <div class="well">
