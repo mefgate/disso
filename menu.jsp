@@ -14,92 +14,69 @@ Author: Mef Diagne
 <html>
 <title>WebConference</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
 <body>
-
-<div class="w3-sidebar w3-bar-block w3-black w3-card-2" style="width:130px">
-  <h5 class="w3-bar-item">Menu</h5>
-  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Fade')">Creer conference</button>
-  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Left')">Rejoindre une conference</button>
-  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Right')">Rejoindre une conference existente</button>
-  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Top')">Mot de Passe conference</button>
-  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Bottom')">rejoindre et charger fichier</button>
-  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Zoom')">Rejoindre avec URL (URL)</button>
-  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Top')">Enregistrer conference</button>
-  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Bottom')">Design</button>
-  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Zoom')">Joindre depuis Mobile</button>
-  <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Zoom')">Activity Monitor</button>
-</div>
-
-<div style="margin-left:130px">
-  <div class="w3-padding">Selectionnez votre type de video-conference</div>
-
-  <div id="Fade" <a href="create.jsp"></a> class="w3-container city w3-animate-opacity" style="display:none">
-    <h2>Creer conference </h2>
-    
-  </div>
-
-  <div id="Left" class="w3-container city w3-animate-opacity" style="display:none">
-    <h2>Rejoindre une conference</h2>
-    
-  </div>
-
-  <div id="Top" class="w3-container city w3-animate-opacity" style="display:none">
-    <h2>Rejoindre une conference existente</h2>
-    
-  </div>
-
-  <div id="Right" class="w3-container city w3-animate-opacity" style="display:none">
-    <h2>Mot de Passe conference</h2>
+<div class="nav-side-menu">
+    <div class="brand">Disso</div>
+    <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
   
-  </div>
+        <div class="menu-list">
+  
+            <ul id="menu-content" class="menu-content collapse out">
+                <li>
+                  <a href="#">
+                  <i class="fa fa-dashboard fa-lg"></i> Dashboard
+                  </a>
+                </li>
 
-  <div id="Bottom" class="w3-container city w3-animate-opacity" style="display:none">
-    <h2>rejoindre et charger fichier</h2>
-    
-  </div>
+                <li  data-toggle="collapse" data-target="#products" class="collapsed active">
+                  <a href="#"><i class="fa fa-gift fa-lg"></i> Conference <span class="arrow"></span></a>
+                </li>
+                <ul class="sub-menu collapse" id="products">
+                    <li class="active"><a href="#">Creer conference</a></li>
+                    <li><a href="#">Rejoindre une conference</a></li>
+                    <li><a href="#">rejoindre une conference existente</a></li>
+                    <li><a href="#">Mot de passe conference</a></li>
+                    <li><a href="#">Conference avec fichier</a></li>
+                    <li><a href="#">Conference avec URL</a></li>
+                </ul>
 
-  <div id="Zoom" class="w3-container city w3-animate-opacity" style="display:none">
-    <h2>Rejoindre avec URL (URL)</h2>
-    
-  </div>
+                <li>
+                  <a href="#">
+                  <i class="fa fa-microphone fa-lg"></i> Enregistrer Conference
+                  </a>
+                  </li>
 
-  <div id="Zoom" class="w3-container city w3-animate-opacity" style="display:none">
-    <h2>Enregistrer conference</h2>
-    
-  </div>
+                  <li>
+                  <a href="#">
+                  <i class="fa fa-eye fa-lg"></i> Design
+                  </a>
+                  </li>
 
-  <div id="Zoom" class="w3-container city w3-animate-opacity" style="display:none">
-    <h2>Design</h2>
-    
-  </div>
+                  <li>
+                  <a href="#">
+                  <i class="fa fa-mobile fa-lg"></i> Mobile
+                  </a>
+                  </li>
 
-  <div id="Zoom" class="w3-container city w3-animate-opacity" style="display:none">
-    <h2>Joindre depuis Mobile</h2>
-    
-  </div>
+                  <li>
+                  <a href="#">
+                  <i class="fa fa-building-o fa-lg"></i> Activity
+                  </a>
+                  </li>
 
-<div id="Zoom" class="w3-container city w3-animate-opacity" style="display:none">
-    <h2>Activity Monitor</h2>
-    
-  </div>
+            </ul>
+     </div>
 </div>
-
-<script>
-function openLink(evt, animName) {
-  var i, x, tablinks;
-  x = document.getElementsByClassName("city");
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < x.length; i++) {
-     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
-  }
-  document.getElementById(animName).style.display = "block";
-  evt.currentTarget.className += " w3-red";
-}
-</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js" type="text/javascript" ></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js" type="text/javascript" ></script>
 
 </body>
 </html>
+
+
