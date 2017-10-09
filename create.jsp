@@ -71,7 +71,7 @@ Author: Fred Dixon <ffdixon@bigbluebutton.org>
              <FORM NAME="form1" METHOD="GET">
               <div class="input-group">
                  <input class="btn btn-lg" name="username1" id="username1" placeholder="Votre nom">
-                 <button class="btn btn-info btn-lg" type="submit" value="Create meeting">Rejoindre </button>
+                 <button class="btn btn-info btn-lg" type="submit" value="Create meeting">Creer </button>
               </div>
               <INPUT TYPE=hidden NAME=action VALUE="create">
              </FORM>
@@ -105,19 +105,19 @@ $(document).ready(function(){
 		//
 
 		String username = request.getParameter("username1");
-		String meetingID = username + "'s meeting";
+		String meetingID = username + " conference";
 
 		//
 		// This is the URL for to join the meeting as moderator
 		//
-		String joinURL = getJoinURL(username, meetingID, "false", "<br>Welcome to %%CONFNAME%%.<br>", null, null);
+		String joinURL = getJoinURL(username, meetingID, "false", "<br>Bienvenue a %%CONFNAME%%.<br>", null, null);
 
 		String url = BigBlueButtonURL.replace("bigbluebutton/","demo/");
 		String inviteURL = url + "create.jsp?action=invite&meetingID=" + URLEncoder.encode(meetingID, "UTF-8");
 %>
 
 <hr />
-<h2>Meeting Created</h2>
+<h2>Conference cree</h2>
 <hr />
 
 
@@ -134,16 +134,16 @@ $(document).ready(function(){
 			<td width="50%">
 			<p>&nbsp;</p>
 
-			Step 2. Invite others using the following <a href="<%=inviteURL%>">link</a> (shown below):
+			Etape 2. Invitez d'autres avec le lien suivant <a href="<%=inviteURL%>">link</a> (shown below):
 			<form name="form2" method="POST">
 				<textarea cols="62" rows="5" name="myname" style="overflow: hidden">
 					<%=inviteURL%>
 				</textarea>
 			</form>
 			<p>&nbsp;
-			<p />Step 3. Click the following link to start your meeting:
+			<p />Etape 3. Clickez sur le lien suivant pour commencer:
 			<p>&nbsp;</p>
-			<center><a href="<%=joinURL%>">Start Meeting</a></center>
+			<center><a href="<%=joinURL%>">Commencer la rencontre</a></center>
 			<p>&nbsp;</p>
 
 			</td>
