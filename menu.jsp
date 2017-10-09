@@ -37,7 +37,7 @@ Author: Mef Diagne
                   <a href="#"><i class="fa fa-gift fa-lg"></i> Conference <span class="arrow"></span></a>
                 </li>
                 <ul class="sub-menu collapse" id="products">
-                    <li class="active"><a href="#">Conference</a></li>
+                    <li class="active"><a>Conference</a></li>
                     <li><a href="create.jsp">Creer conference</a></li>
                     <li><a href="demo1.jsp">Rejoindre une conference</a></li>
                     <li><a href="demo2.jsp">rejoindre une conference existente</a></li>
@@ -48,15 +48,11 @@ Author: Mef Diagne
 
                 <li>
                   <a href="demo10.jsp">
-                  <i class="fa fa-microphone fa-lg"></i> Enregistrer Conference
+                    <i class="fa fa-microphone fa-lg"></i> Enregistrer Conference
                   </a>
-                  </li>
+                </li>
 
-                  <li>
-                  <a href="demo12.jsp">
-                  <i class="fa fa-eye fa-lg"></i> Design
-                  </a>
-                  </li>
+                  <li><a href="demo12.jsp">Design</a></li>
 
                   <li>
                   <a href="mobile.jsp">
