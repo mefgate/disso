@@ -44,7 +44,7 @@ if (request.getParameterMap().isEmpty()) {
              <FORM NAME="form1" METHOD="GET">
               <div class="input-group">
                  <input class="btn btn-lg" name="username" id="username" placeholder="Votre nom">
-                 <button class="btn btn-info btn-lg" type="submit" value="Join">Creer conference</button>
+                 <button class="btn btn-info btn-lg" type="submit" value="Join">Rejoindre </button>
               </div>
               <INPUT TYPE=hidden NAME=action VALUE="create">
              </FORM>
