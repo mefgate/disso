@@ -37,34 +37,35 @@ Author: Mef Diagne
                   <a href="#"><i class="fa fa-gift fa-lg"></i> Conference <span class="arrow"></span></a>
                 </li>
                 <ul class="sub-menu collapse" id="products">
-                    <li class="active"><a href="#">Creer conference</a></li>
-                    <li><a href="#">Rejoindre une conference</a></li>
-                    <li><a href="#">rejoindre une conference existente</a></li>
-                    <li><a href="#">Mot de passe conference</a></li>
-                    <li><a href="#">Conference avec fichier</a></li>
-                    <li><a href="#">Conference avec URL</a></li>
+                    <li class="active"><a href="#">Conference</a></li>
+                    <li><a href="create.jsp">Creer conference</a></li>
+                    <li><a href="demo1.jsp">Rejoindre une conference</a></li>
+                    <li><a href="demo2.jsp">rejoindre une conference existente</a></li>
+                    <li><a href="demo3.jsp">Mot de passe conference</a></li>
+                    <li><a href="demo7.jsp">Conference avec fichier</a></li>
+                    <li><a href="demo8.jsp">Conference avec URL</a></li>
                 </ul>
 
                 <li>
-                  <a href="#">
+                  <a href="demo10.jsp">
                   <i class="fa fa-microphone fa-lg"></i> Enregistrer Conference
                   </a>
                   </li>
 
                   <li>
-                  <a href="#">
+                  <a href="demo12.jsp">
                   <i class="fa fa-eye fa-lg"></i> Design
                   </a>
                   </li>
 
                   <li>
-                  <a href="#">
+                  <a href="mobile.jsp">
                   <i class="fa fa-mobile fa-lg"></i> Mobile
                   </a>
                   </li>
 
                   <li>
-                  <a href="#">
+                  <a href="demo4.jsp">
                   <i class="fa fa-building-o fa-lg"></i> Activity
                   </a>
                   </li>
