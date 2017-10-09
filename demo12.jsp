@@ -59,7 +59,7 @@ Author: Jesus Federico <jesus@123it.ca>
 
 
 <%@ include file="bbb_api.jsp"%>
-<%@ include file="demo_header.jsp"%>
+<%@ include file="menu.jsp"%>
 
 <%
 	if (request.getParameterMap().isEmpty()) {
