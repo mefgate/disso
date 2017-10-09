@@ -43,7 +43,7 @@ if (request.getParameterMap().isEmpty()) {
          <div class="well">
              <FORM NAME="form1" METHOD="GET">
               <div class="input-group">
-                 <input class="btn btn-lg" name="email" id="email" placeholder="Votre nom">
+                 <input class="btn btn-lg" name="username" id="username" placeholder="Votre nom">
                  <button class="btn btn-info btn-lg" type="submit" value="Join">Creer conference</button>
               </div>
               <INPUT TYPE=hidden NAME=action VALUE="create">
