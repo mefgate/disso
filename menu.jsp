@@ -51,8 +51,13 @@ Author: Mef Diagne
                     <i class="fa fa-microphone fa-lg"></i> Enregistrer Conference
                   </a>
                 </li>
-
-                  <li><a href="demo12.jsp">Design</a></li>
+                
+                  
+                  <li>
+                    <a href="demo12.jsp">
+                       <i class="fa fa-eye fa-lg"></i> Design
+                    </a>
+                  </li>
 
                   <li>
                   <a href="mobile.jsp">
