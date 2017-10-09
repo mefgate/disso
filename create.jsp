@@ -65,7 +65,7 @@ Author: Fred Dixon <ffdixon@bigbluebutton.org>
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
         <hgroup>
-          <h1 class="free">Entrez votre nom</h1>
+          <h1 class="free">Etape 1. Entrez votre nom</h1>
          </hgroup>
          <div class="well">
              <FORM NAME="form1" METHOD="GET">
@@ -150,10 +150,6 @@ $(document).ready(function(){
 		</tr>
 	</tbody>
 </table>
-
-
-
-
 
 
 
