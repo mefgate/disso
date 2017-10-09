@@ -58,25 +58,30 @@ Author: Fred Dixon <ffdixon@bigbluebutton.org>
 <h2 align="center">Create Your Own Meeting</h2>
 
 <p />
-<FORM NAME="form1" METHOD="GET">
 
-<table width=600 cellspacing="20" cellpadding="20"
-	style="border-collapse: collapse; border-right-color: rgb(136, 136, 136);"
-	border=3>
-	<tbody>
-		<tr>
-			<td width="50%">Create your own meeting.
-			<p />
-			</td>
-			<td width="50%">Step 1. Enter your name: <input type="text" autofocus required
-				name="username1" /> <br />
-			<INPUT TYPE=hidden NAME=action VALUE="create"> <br />
-			<input id="submit-button" type="submit" value="Create meeting" /></td>
-		</tr>
-	</tbody>
-</table>
 
-</FORM>
+<section>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+        <hgroup>
+          <h1 class="free">Creer votre conference</h1>
+          <h1 class="free">Entrez votre nom</h1>
+         </hgroup>
+         <div class="well">
+             <FORM NAME="form1" METHOD="GET">
+              <div class="input-group">
+                 <input class="btn btn-lg" name="username1" id="username1" placeholder="Votre nom">
+                 <button class="btn btn-info btn-lg" type="submit" value="Create meeting">Rejoindre </button>
+              </div>
+              <INPUT TYPE=hidden NAME=action VALUE="create">
+             </FORM>
+         </div>
+        
+        </div>
+    </div>
+</div>
+</section>
 
 <script>
 //
