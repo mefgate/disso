@@ -32,34 +32,28 @@ if (request.getParameterMap().isEmpty()) {
 <h2 align="center">Video Conference</h2>
 
 
-<FORM NAME="form1" METHOD="GET"> 
-<table cellpadding="5" cellspacing="5" style="width: 400px; ">
-	<tbody>
-		<tr>
-			<td>
-				&nbsp;</td>
-			<td style="text-align: right; ">
-				Full Name:</td>
-			<td style="width: 5px; ">
-				&nbsp;</td>
-			<td style="text-align: left ">
-				<input type="text" autofocus required name="username" /></td>
-		</tr>
-		<tr>
-			<td>
-				&nbsp;</td>
-			<td>
-				&nbsp;</td>
-			<td>
-				&nbsp;</td>
-			<td>
-				<input type="submit" value="Join" /></td>
-		</tr>	
-	</tbody>
-</table>
-<INPUT TYPE=hidden NAME=action VALUE="create">
-</FORM>
-
+<section>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+        <hgroup>
+          
+          <h1 class="free">Entrez votre nom</h1>
+         </hgroup>
+         <div class="well">
+             <FORM NAME="form1" METHOD="GET">
+              <div class="input-group">
+                 <input class="btn btn-lg" name="email" id="email" placeholder="Votre nom">
+                 <button class="btn btn-info btn-lg" type="submit" value="Join">Creer conference</button>
+              </div>
+              <INPUT TYPE=hidden NAME=action VALUE="create">
+             </FORM>
+         </div>
+        
+        </div>
+    </div>
+</div>
+</section>
 
 <%
 } else  if (request.getParameter("action").equals("create")) {
