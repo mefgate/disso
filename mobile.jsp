@@ -43,7 +43,7 @@ if (request.getParameterMap().isEmpty()) {
 	// Assume we want to create a meeting
 	//
 	%> 
-<%@ include file="demo_header.jsp"%>
+<%@ include file="menu.jsp"%>
 
 <h2>Join Demo Meeting From Mobile</h2>
 
