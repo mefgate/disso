@@ -33,8 +33,18 @@ Author: Mef Diagne
                   </a>
                 </li>
 
-                    <li><a href="create.jsp"><i class="icon-comments"></i> Creer conference</a></li>
-                    <li><a href="demo1.jsp"><i class="icon-group"></i>Rejoindre une conference</a></li>
+                    <li>
+                      <a href="create.jsp">
+                        <i class="icon-sitemap"></i> Creer conference
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="demo1.jsp">
+                        <i class="icon-group"></i>Rejoindre une conference
+                    </a>
+                    </li>
+                    
                     <li><a href="demo2.jsp">rejoindre une conference existente</a></li>
                     <li><a href="demo3.jsp">Mot de passe conference</a></li>
                     <li><a href="demo7.jsp">Conference avec fichier</a></li>
