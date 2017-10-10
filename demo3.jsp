@@ -135,67 +135,41 @@ if (request.getParameterMap().isEmpty()) {
 <h2 align="center">Join a Session (password required)</h2>
 
 
-<FORM NAME="form1" METHOD="GET">
-<table cellpadding="5" cellspacing="5" style="width: 400px; ">
-	<tbody>
-		<tr>
-			<td>
-				&nbsp;</td>
-			<td style="text-align: right; ">
-				Full&nbsp;Name:</td>
-			<td style="width: 5px; ">
-				&nbsp;</td>
-			<td style="text-align: left ">
-				<input type="text" autofocus required name="username" /></td>
-		</tr>
-		
-	
-		
-		<tr>
-			<td>
-				&nbsp;</td>
-			<td style="text-align: right; ">
-				Session:</td>
-			<td>
-				&nbsp;
-			</td>
-			<td style="text-align: left ">
-			<select name="meetingID">
-			<%
-				String key;
-				while (meetingIterator.hasNext()) {
-					key = meetingIterator.next(); 
-					out.println("<option value=\"" + key + "\">" + key + "</option>");
-				}
-			%>
-			</select>
-				
-			</td>
-		</tr>
-		<tr>
-			<td>
-				&nbsp;</td>
-			<td style="text-align: right; ">
-				Password:</td>
-			<td>
-				&nbsp;</td>
-			<td>
-				<input type="password" required name="password" /></td>
-		</tr>
-		<tr>
-			<td>
-				&nbsp;</td>
-			<td>
-				&nbsp;</td>
-			<td>
-				&nbsp;</td>
-			<td>
-				<input type="submit" value="Join" /></td>
-		</tr>	
-	</tbody>
-</table>
-<INPUT TYPE=hidden NAME=action VALUE="create">
-</FORM>
+<section>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+        <hgroup>
+          <h1 class="free">Creer votre conference</h1>
+          <h1 class="free">Nom complet</h1>
+          <input type="text" autofocus required name="username" />
+         </hgroup>
+         <tr>
+            <td>
+                &nbsp;</td>
+            <td style="text-align: right; ">
+                Session:</td>
+            <td>
+               
+            </td>
+            <td style="text-align: left ">
+            <select name="meetingID">
+            <%
+                String key;
+                while (meetingIterator.hasNext()) {
+                    key = meetingIterator.next(); 
+                    out.println("<option value=\"" + key + "\">" + key + "</option>");
+                }
+            %>
+            </select>
+                
+            </td>
+        </tr>
+        
+        </div>
+    </div>
+</div>
+</section>
 
 Passwords:  
 <ul>
