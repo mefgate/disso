@@ -45,7 +45,7 @@ Author: Mef Diagne
                     </a>
                     </li>
 
-                    <li><a href="demo3.jsp">Mot de passe conference</a></li>
+                    <li><a href="demo3.jsp"><i class="fa fa-key"></i>Mot de passe conference</a></li>
                     <li><a href="demo7.jsp">Conference avec fichier</a></li>
                     <li><a href="demo8.jsp">Conference avec URL</a></li>
                     <!-- <li><a href="demo2.jsp">rejoindre une conference existente</a></li> --> 
