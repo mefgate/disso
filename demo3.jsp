@@ -139,7 +139,8 @@ if (request.getParameterMap().isEmpty()) {
 <table cellpadding="5" cellspacing="5" style="width: 400px; ">
 	<tbody>
 		<tr>
-			
+			<td>
+				&nbsp;</td>
 			<td style="text-align: right; ">
 				Full&nbsp;Name:</td>
 			<td style="width: 5px; ">
@@ -151,12 +152,13 @@ if (request.getParameterMap().isEmpty()) {
 	
 		
 		<tr>
-			
-				
-			 style="text-align: right; "
-				Session:
-			
-			
+			<td>
+				&nbsp;</td>
+			<td style="text-align: right; ">
+				Session:</td>
+			<td>
+				&nbsp;
+			</td>
 			<td style="text-align: left ">
 			<select name="meetingID">
 			<%
@@ -181,7 +183,13 @@ if (request.getParameterMap().isEmpty()) {
 				<input type="password" required name="password" /></td>
 		</tr>
 		<tr>
-			
+			<td>
+				&nbsp;</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				&nbsp;</td>
+			<td>
 				<input type="submit" value="Join" /></td>
 		</tr>	
 	</tbody>
