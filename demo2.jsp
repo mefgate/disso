@@ -27,7 +27,7 @@ Author: Mef Diagne
 		//
 %>
 
-<%@ include file="menu.jsp"%>
+<%@ include file="demo_header.jsp"%>
 
 <h2 align="center">Rejoindre une conference</h2>
 
