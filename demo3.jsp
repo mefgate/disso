@@ -165,11 +165,18 @@ if (request.getParameterMap().isEmpty()) {
                 
             </td>
         </tr>
-        
+        <tr>
+            <td style="text-align: right; ">
+                Password:</td>
+           
+                <input type="password" required name="password" />
+        </tr>
+                <input type="submit" value="Join" />
         </div>
     </div>
 </div>
 </section>
+
 
 Passwords:  
 <ul>
