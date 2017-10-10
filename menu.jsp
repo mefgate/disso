@@ -41,7 +41,7 @@ Author: Mef Diagne
 
                     <li>
                       <a href="demo1.jsp">
-                        <i class="icon-group"></i>Rejoindre une conference
+                        <i class="fa fa-users"></i>Rejoindre une conference
                     </a>
                     </li>
 
