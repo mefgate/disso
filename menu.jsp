@@ -35,20 +35,33 @@ Author: Mef Diagne
 
                     <li>
                       <a href="create.jsp">
-                        <i class="fa icon-sitemap"></i> Creer conference
+                        <i class="fa fa-users"></i> Creer conference
                       </a>
                     </li>
 
                     <li>
                       <a href="demo1.jsp">
-                        <i class="fa fa-users"></i>Rejoindre une conference
+                        <i class="fa fa-pencil fa-fw"></i>Rejoindre une conference
                     </a>
                     </li>
 
-                    <li><a href="demo2.jsp">rejoindre une conference existente</a></li>
-                    <li><a href="demo3.jsp">Mot de passe conference</a></li>
-                    <li><a href="demo7.jsp">Conference avec fichier</a></li>
-                    <li><a href="demo8.jsp">Conference avec URL</a></li>
+                    <li>
+                      <a href="demo3.jsp">Mot de passe conference
+                         <i class="fa fa-key fa-fw">
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="demo7.jsp">Conference avec fichier
+                        <i class="fa fa-book fa-fw">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="demo8.jsp">Conference avec URL
+                      <i class="fa fa-sitemap">
+                      </a>
+                    </li>
+                    <!-- <li><a href="demo2.jsp">rejoindre une conference existente</a></li> --> 
 
                 <li>
                   <a href="demo10.jsp">
