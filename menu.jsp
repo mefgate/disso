@@ -52,15 +52,8 @@ Author: Mef Diagne
                     </li>
 
                     <li>
-                      <a href="demo7.jsp">Conference avec fichier
-                        <i class="fa fa-book fa-fw">
-                      </a>
-                    </li>
-                    <li>
-                      <a href="demo8.jsp">Conference avec URL
-                      <i class="fa fa-sitemap">
-                      </a>
-                    </li>
+                      <a href="demo7.jsp">Conference avec fichier</a></li>
+                    <li><a href="demo8.jsp">Conference avec URL</a></li>
                     <!-- <li><a href="demo2.jsp">rejoindre une conference existente</a></li> --> 
 
                 <li>
