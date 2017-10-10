@@ -33,18 +33,13 @@ Author: Mef Diagne
                   </a>
                 </li>
 
-                <li  data-toggle="collapse" data-target="#products" class="collapsed active">
-                  <a href="#"><i class="fa fa-gift fa-lg"></i> Conference <span class="arrow"></span></a>
-                </li>
-                
-                    <li class="active"><a>Conference</a></li>
-                    <li><a href="create.jsp">Creer conference</a></li>
+                    <li><a href="create.jsp"> Creer conference</a></li>
                     <li><a href="demo1.jsp">Rejoindre une conference</a></li>
                     <li><a href="demo2.jsp">rejoindre une conference existente</a></li>
                     <li><a href="demo3.jsp">Mot de passe conference</a></li>
                     <li><a href="demo7.jsp">Conference avec fichier</a></li>
                     <li><a href="demo8.jsp">Conference avec URL</a></li>
-                    
+
                 <li>
                   <a href="demo10.jsp">
                     <i class="fa fa-microphone fa-lg"></i> Enregistrer Conference
