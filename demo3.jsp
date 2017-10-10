@@ -151,13 +151,12 @@ if (request.getParameterMap().isEmpty()) {
 	
 		
 		<tr>
-			<td>
-				&nbsp;</td>
-			<td style="text-align: right; ">
-				Session:</td>
-			<td>
-				&nbsp;
-			</td>
+			
+				
+			 style="text-align: right; "
+				Session:
+			
+			
 			<td style="text-align: left ">
 			<select name="meetingID">
 			<%
