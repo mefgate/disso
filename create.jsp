@@ -66,7 +66,7 @@ Author: Fred Dixon <ffdixon@bigbluebutton.org>
                 <!-- <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h3> -->
             </div>
             <div class="contact-section">
-            <div class="container2">
+            <div class="container">
                 <form>
                     <div class="col-md-6 form-line">
                         <hgroup>
