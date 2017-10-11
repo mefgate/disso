@@ -135,39 +135,73 @@ if (request.getParameterMap().isEmpty()) {
 <h2 align="center">Join a Session (password required)</h2>
 
 
+<FORM NAME="form1" METHOD="GET">
+<table cellpadding="5" cellspacing="5" style="width: 400px; ">
+	<tbody>
+		<tr>
+			<td>
+				&nbsp;</td>
+			<td style="text-align: right; ">
+				Full&nbsp;Name:</td>
+			<td style="width: 5px; ">
+				&nbsp;</td>
+			<td style="text-align: left ">
+				<input type="text" autofocus required name="username" /></td>
+		</tr>
+		
+	
+		
+		<tr>
+			<td>
+				&nbsp;</td>
+			<td style="text-align: right; ">
+				Session:</td>
+			<td>
+				&nbsp;
+			</td>
+			<td style="text-align: left ">
+			<select name="meetingID">
+			<%
+				String key;
+				while (meetingIterator.hasNext()) {
+					key = meetingIterator.next(); 
+					out.println("<option value=\"" + key + "\">" + key + "</option>");
+				}
+			%>
+			</select>
+				
+			</td>
+		</tr>
+		<tr>
+			<td>
+				&nbsp;</td>
+			<td style="text-align: right; ">
+				Password:</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				<input type="password" required name="password" /></td>
+		</tr>
+		<tr>
+			<td>
+				&nbsp;</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				&nbsp;</td>
+			<td>
+				<input type="submit" value="Join" /></td>
+		</tr>	
+	</tbody>
+</table>
+<INPUT TYPE=hidden NAME=action VALUE="create">
+</FORM>
 
-<div style="padding: 3rem 1rem">
-  <form class="well center-block" style="max-width: 35rem" NAME="form1" METHOD="GET">
-    <legend class="text-center">Rejoindre une conference (mot de passe requis)</legend>
-    <div class="form-group input-group">
-      <span class="has-float-label">
-        <input class="form-control" id="username" type="text" placeholder="Name"/>
-        <label for="first">Nom complet</label>
-      </span>
-      
-    </div>
-    
-    <div class="form-group has-float-label">
-      <input class="form-control" id="password" type="password" placeholder="••••••••"/>
-      <label for="password">Mot de passe</label>
-    </div>
-    <div class="form-group has-float-label">
-      <select name="meetingID">
-            <%
-                String key;
-                while (meetingIterator.hasNext()) {
-                    key = meetingIterator.next(); 
-                    out.println("<option value=\"" + key + "\">" + key + "</option>");
-                }
-            %>
-            </select>
-      <label for="country">Session</label>
-    </div>
-    
-    <div>
-      <button class="btn btn-block btn-primary" type="submit" value="create">Rejoindre</button>
-    </div>
-  </form>
+Passwords:  
+<ul>
+   <li>prof123 - login as professor (moderator privlidges)</li>
+   <li>student123 - login as student (viewer privlidges)</li>
+</ul>
 
 
 <%
