@@ -134,7 +134,7 @@ if (request.getParameterMap().isEmpty()) {
 
 <h2 align="center">Join a Session (password required)</h2>
 
-
+<div style="padding: 3rem 1rem">
 <FORM NAME="form1" METHOD="GET">
 <table cellpadding="5" cellspacing="5" style="width: 400px; ">
 	<tbody>
@@ -197,11 +197,7 @@ if (request.getParameterMap().isEmpty()) {
 <INPUT TYPE=hidden NAME=action VALUE="create">
 </FORM>
 
-Passwords:  
-<ul>
-   <li>prof123 - login as professor (moderator privlidges)</li>
-   <li>student123 - login as student (viewer privlidges)</li>
-</ul>
+ </div>
 
 
 <%
