@@ -140,7 +140,7 @@ if (request.getParameterMap().isEmpty()) {
     <legend class="text-center">Rejoindre une conference (mot de passe requis)</legend>
     <div class="form-group input-group">
       <span class="has-float-label">
-        <input class="form-control" id="usernamecfgtrt" type="text" placeholder="Name"/>
+        <input class="form-control" id="username" type="text" placeholder="Name"/>
         <label for="first">Nom complet</label>
       </span>
       
