@@ -164,7 +164,7 @@ if (request.getParameterMap().isEmpty()) {
     </div>
     
     <div>
-      <button class="btn btn-block btn-primary" type="submit" value="Join">Rejoindre</button>
+      <button class="btn btn-block btn-primary" type="submit" value="create">Rejoindre</button>
     </div>
   </form>
   
