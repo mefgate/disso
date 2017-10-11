@@ -168,18 +168,17 @@ if (request.getParameterMap().isEmpty()) {
     </div>
   </form>
   
-  <div class="text-center">
-    <a href="https://github.com/tonystar/bootstrap-float-label/tree/v3-dev" target="_blank">Project on GitHub</a> •
-    <a href="http://bootsnipp.com/tonystar/snippets/x8xmR" target="_blank">Switch to Bootstrap 4</a>
-  </div>
+  <!-- <div class="text-center"> -->
+    		<!-- Passwords:   -->
+				<!-- <ul> -->
+ 				  <!-- <li>prof123 - login as professor (moderator privlidges)</li> -->
+ 				  <!-- <li>student123 - login as student (viewer privlidges)</li> -->
+				<!-- </ul> -->
+  <!-- </div> -->
 </div>
 
 
-Passwords:  
-<ul>
-   <li>prof123 - login as professor (moderator privlidges)</li>
-   <li>student123 - login as student (viewer privlidges)</li>
-</ul>
+
 
 
 <%
