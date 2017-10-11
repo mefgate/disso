@@ -32,11 +32,16 @@ if (request.getParameterMap().isEmpty()) {
 <h2 align="center">Video Conference</h2>
 
 
-<section>
-<div class="container">
-    <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-        <hgroup>
+<section id="contact">
+            <div class="section-content">
+                <h1 class="section-header">Creer <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Creer votre conference</span></h1>
+                <!-- <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h3> -->
+            </div>
+            <div class="contact-section">
+            <div class="container">
+                <form>
+                    <div class="col-md-6 form-line">
+                        <hgroup>
           
           <h1 class="free">Entrez votre nom</h1>
          </hgroup>
@@ -44,16 +49,23 @@ if (request.getParameterMap().isEmpty()) {
              <FORM NAME="form1" METHOD="GET">
               <div class="input-group">
                  <input class="btn btn-lg" name="username" id="username" placeholder="Votre nom">
-                 <button class="btn btn-info btn-lg" type="submit" value="Join">Rejoindre </button>
+                 <button class="btn btn-info btn-lg" type="submit" value="Join">Rejoindre</button>
               </div>
               <INPUT TYPE=hidden NAME=action VALUE="create">
              </FORM>
          </div>
-        
-        </div>
-    </div>
-</div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for ="description"> Message</label>
+                        </div>
+                        
+                        
+                    </div>
+                </form>
+            </div>
 </section>
+
 
 <%
 } else  if (request.getParameter("action").equals("create")) {
