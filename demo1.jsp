@@ -34,7 +34,7 @@ if (request.getParameterMap().isEmpty()) {
 
 <section id="contact">
             <div class="section-content">
-                <h1 class="section-header">Creer <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Rejoindre une conference</span></h1>
+                <h1 class="section-header">Rejoindre une <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> conference demo</span></h1>
                 <!-- <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h3> -->
             </div>
             <div class="contact-section">
