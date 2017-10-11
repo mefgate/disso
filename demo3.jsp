@@ -135,8 +135,9 @@ if (request.getParameterMap().isEmpty()) {
 <h2 align="center">Join a Session (password required)</h2>
 
 
+
 <div style="padding: 3rem 1rem">
-  <form class="well center-block" style="max-width: 35rem">
+  <form class="well center-block" style="max-width: 35rem" NAME="form1" METHOD="GET">
     <legend class="text-center">Rejoindre une conference (mot de passe requis)</legend>
     <div class="form-group input-group">
       <span class="has-float-label">
@@ -167,18 +168,6 @@ if (request.getParameterMap().isEmpty()) {
       <button class="btn btn-block btn-primary" type="submit" value="create">Rejoindre</button>
     </div>
   </form>
-  
-  <!-- <div class="text-center"> -->
-    		<!-- Passwords:   -->
-				<!-- <ul> -->
- 				  <!-- <li>prof123 - login as professor (moderator privlidges)</li> -->
- 				  <!-- <li>student123 - login as student (viewer privlidges)</li> -->
-				<!-- </ul> -->
-  <!-- </div> -->
-</div>
-
-
-
 
 
 <%
