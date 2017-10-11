@@ -130,7 +130,7 @@ if (request.getParameterMap().isEmpty()) {
 		// Assume we want to join a course
 		//
 	%> 
-<!-- <%@ include file="menu.jsp"%> -->
+<%@ include file="menu.jsp"%>
 
 <h2 align="center">Join a Session (password required)</h2>
 
