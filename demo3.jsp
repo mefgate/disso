@@ -135,25 +135,23 @@ if (request.getParameterMap().isEmpty()) {
 <h2 align="center">Join a Session (password required)</h2>
 
 
-<section>
-<div class="container">
-    <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-        <hgroup>
-          <h1 class="free">Creer votre conference</h1>
-          <h1 class="free">Nom complet</h1>
-          <input type="text" autofocus required name="username" />
-         </hgroup>
-         <tr>
-            <td>
-                &nbsp;</td>
-            <td style="text-align: right; ">
-                Session:</td>
-            <td>
-               
-            </td>
-            <td style="text-align: left ">
-            <select name="meetingID">
+<div style="padding: 3rem 1rem">
+  <form class="well center-block" style="max-width: 35rem">
+    <legend class="text-center">Rejoindre une conference (mot de passe requis)</legend>
+    <div class="form-group input-group">
+      <span class="has-float-label">
+        <input class="form-control" id="first" type="text" placeholder="Name"/>
+        <label for="first">Nom complet</label>
+      </span>
+      
+    </div>
+    
+    <div class="form-group has-float-label">
+      <input class="form-control" id="password" type="password" placeholder="••••••••"/>
+      <label for="password">Mot de passe</label>
+    </div>
+    <div class="form-group has-float-label">
+      <select name="meetingID">
             <%
                 String key;
                 while (meetingIterator.hasNext()) {
@@ -162,20 +160,19 @@ if (request.getParameterMap().isEmpty()) {
                 }
             %>
             </select>
-                
-            </td>
-        </tr>
-        <tr>
-            <td style="text-align: right; ">
-                Password:</td>
-           
-                <input type="password" required name="password" />
-        </tr>
-                <input type="submit" value="Join" />
-        </div>
+      <label for="country">Session</label>
     </div>
+    
+    <div>
+      <button class="btn btn-block btn-primary" type="submit" value="Join">Rejoindre</button>
+    </div>
+  </form>
+  
+  <div class="text-center">
+    <a href="https://github.com/tonystar/bootstrap-float-label/tree/v3-dev" target="_blank">Project on GitHub</a> •
+    <a href="http://bootsnipp.com/tonystar/snippets/x8xmR" target="_blank">Switch to Bootstrap 4</a>
+  </div>
 </div>
-</section>
 
 
 Passwords:  
