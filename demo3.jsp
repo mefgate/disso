@@ -137,7 +137,7 @@ if (request.getParameterMap().isEmpty()) {
 
 
 <div style="padding: 3rem 1rem">
-  <form class="well center-block" style="max-width: 35rem" NAME="form1" METHOD="GET">
+  <form NAME="form1" METHOD="GET">
     <legend class="text-center">Rejoindre une conference (mot de passe requis)</legend>
     <div class="form-group input-group">
       <span class="has-float-label">
