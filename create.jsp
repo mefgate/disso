@@ -69,10 +69,10 @@ Author: Fred Dixon <ffdixon@bigbluebutton.org>
             <div class="container">
                 <form>
                     <div class="col-md-6 form-line">
-                        <hgroup>
-          
-          <h1 class="free">Etape 1. Entrez votre nom</h1>
+          <hgroup>
+               <h1 class="free">Etape 1. Entrez votre nom</h1>
          </hgroup>
+         
          <div class="well">
              <FORM NAME="form1" METHOD="GET">
               <div class="input-group">
