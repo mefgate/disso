@@ -145,7 +145,7 @@ if (request.getParameterMap().isEmpty()) {
 				Full&nbsp;Name:</td>
 			<td style="width: 5px; ">
 				&nbsp;</td>
-			<td>
+			<td style="padding-left:600px;">
 				<input type="text" autofocus required name="username" /></td>
 		</tr>
 		
@@ -159,7 +159,7 @@ if (request.getParameterMap().isEmpty()) {
 			<td>
 				&nbsp;
 			</td>
-			<td style="text-align: center ">
+			<td style="margin: 20px">
 			<select name="meetingID">
 			<%
 				String key;
