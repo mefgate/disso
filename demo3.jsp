@@ -145,7 +145,7 @@ if (request.getParameterMap().isEmpty()) {
 				Full&nbsp;Name:</td>
 			<td style="width: 5px; ">
 				&nbsp;</td>
-			<td style="padding-left:600px;">
+			<td>
 				<input type="text" autofocus required name="username" /></td>
 		</tr>
 		
