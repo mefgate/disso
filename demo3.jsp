@@ -138,16 +138,10 @@ if (request.getParameterMap().isEmpty()) {
 <FORM NAME="form1" METHOD="GET">
 <table cellpadding="5" cellspacing="5" style="width: 400px; ">
 	<tbody>
-		<tr>
-			<td>
-				&nbsp;</td>
-			<td style="margin: 20px">
-				Full&nbsp;Name:</td>
-			<td style="width: 5px; ">
-				&nbsp;</td>
-			<td style="padding-left:600px;">
-				<input type="text" autofocus required name="username" /></td>
-		</tr>
+		<div class="form-group">
+    <label for="exampleInputEmail1">Full Name:</label>
+    <input type="text" class="form-control" id="username" placeholder="username">
+  </div>
 		
 	
 		
