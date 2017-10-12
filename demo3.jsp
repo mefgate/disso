@@ -181,7 +181,7 @@ if (request.getParameterMap().isEmpty()) {
 				Password:</td>
 			<td>
 				&nbsp;</td>
-			<td>
+			<td style="padding-left:600px; padding-top: 40px;">
 				<input type="password" required name="password" /></td>
 		</tr>
 		<tr>
