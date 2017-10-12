@@ -189,7 +189,7 @@ if (request.getParameterMap().isEmpty()) {
 				&nbsp;</td>
 			<td>
 				&nbsp;</td>
-			<td style="text-align: center;">
+			<td>
 				<!-- <input type="submit" value="Join" /></td> -->
 
 	           <button class="btn btn-info btn-lg" type="submit" value="Join">Rejoindre</button>
