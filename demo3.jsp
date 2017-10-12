@@ -141,7 +141,7 @@ if (request.getParameterMap().isEmpty()) {
 		<tr>
 			<td>
 				&nbsp;</td>
-			<td style="text-align: center; padding-left:60px; ">
+			<td style="text-align: center; padding-left:600px; ">
 				Full&nbsp;Name:</td>
 			<td style="width: 5px; ">
 				&nbsp;</td>
