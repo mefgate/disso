@@ -134,7 +134,7 @@ if (request.getParameterMap().isEmpty()) {
 
 <h2 align="center">Join a Session (password required)</h2>
 
-<div style="padding: 600px">
+<div style="margin: 20px">
 <FORM NAME="form1" METHOD="GET">
 <table cellpadding="5" cellspacing="5" style="width: 400px; ">
 	<tbody>
