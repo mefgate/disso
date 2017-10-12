@@ -154,7 +154,7 @@ if (request.getParameterMap().isEmpty()) {
 		<tr>
 			<td>
 				&nbsp;</td>
-			<td style="text-align: center; ">
+			<td>
 				Session:</td>
 			<td>
 				&nbsp;
