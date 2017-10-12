@@ -136,12 +136,14 @@ if (request.getParameterMap().isEmpty()) {
 
 <div style="margin: 20px">
 <FORM NAME="form1" METHOD="GET">
-<table cellpadding="5" cellspacing="5" style="width: 400px; ">
-	<tbody>
-		<div class="form-group">
+
+<div class="form-group">
     <label for="exampleInputEmail1">Full Name:</label>
     <input type="text" class="form-control" id="username" placeholder="username">
   </div>
+<table cellpadding="5" cellspacing="5" style="width: 400px; ">
+	<tbody>
+		
 		
 	
 		
