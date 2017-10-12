@@ -159,7 +159,7 @@ if (request.getParameterMap().isEmpty()) {
 			<td>
 				&nbsp;
 			</td>
-			<td style="padding-left:600px;">
+			<td>
 			<select name="meetingID">
 			<%
 				String key;
