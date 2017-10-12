@@ -177,7 +177,7 @@ if (request.getParameterMap().isEmpty()) {
 		<tr>
 			<td>
 				&nbsp;</td>
-			<td style="padding-left:600px;">
+			<td style="padding-left:600px; padding-top: 40px;">
 				Password:</td>
 			<td>
 				&nbsp;</td>
