@@ -145,7 +145,7 @@ if (request.getParameterMap().isEmpty()) {
 				Full&nbsp;Name:</td>
 			<td style="width: 5px; ">
 				&nbsp;</td>
-			<td style="padding-left:60px;">
+			<td>
 				<input type="text" autofocus required name="username" /></td>
 		</tr>
 		
@@ -175,11 +175,11 @@ if (request.getParameterMap().isEmpty()) {
 		<tr>
 			<td>
 				&nbsp;</td>
-			<td style="text-align: center; ">
+			<td>
 				Password:</td>
 			<td>
 				&nbsp;</td>
-			<td style="text-align: center;">
+			<td>
 				<input type="password" required name="password" /></td>
 		</tr>
 		<tr>
