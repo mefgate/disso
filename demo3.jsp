@@ -141,11 +141,11 @@ if (request.getParameterMap().isEmpty()) {
 		<tr>
 			<td>
 				&nbsp;</td>
-			<td style="text-align: right; ">
+			<td style="text-align: center; ">
 				Full&nbsp;Name:</td>
 			<td style="width: 5px; ">
 				&nbsp;</td>
-			<td style="text-align: left ">
+			<td style="text-align: center ">
 				<input type="text" autofocus required name="username" /></td>
 		</tr>
 		
@@ -154,12 +154,12 @@ if (request.getParameterMap().isEmpty()) {
 		<tr>
 			<td>
 				&nbsp;</td>
-			<td style="text-align: right; ">
+			<td style="text-align: center; ">
 				Session:</td>
 			<td>
 				&nbsp;
 			</td>
-			<td style="text-align: left ">
+			<td style="text-align: center ">
 			<select name="meetingID">
 			<%
 				String key;
@@ -175,11 +175,11 @@ if (request.getParameterMap().isEmpty()) {
 		<tr>
 			<td>
 				&nbsp;</td>
-			<td style="text-align: right; ">
+			<td style="text-align: center; ">
 				Password:</td>
 			<td>
 				&nbsp;</td>
-			<td>
+			<td style="text-align: center;">
 				<input type="password" required name="password" /></td>
 		</tr>
 		<tr>
@@ -189,7 +189,7 @@ if (request.getParameterMap().isEmpty()) {
 				&nbsp;</td>
 			<td>
 				&nbsp;</td>
-			<td>
+			<td style="text-align: center;">
 				<input type="submit" value="Join" /></td>
 		</tr>	
 	</tbody>
