@@ -135,6 +135,8 @@ if (request.getParameterMap().isEmpty()) {
 <h2 align="center">Join a Session (password required)</h2>
 
 <div style="margin: 20px">
+
+<section id="contact">
 <FORM NAME="form1" METHOD="GET">
 <table cellpadding="5" cellspacing="5" style="width: 400px; ">
 	<tbody>
@@ -199,7 +201,7 @@ if (request.getParameterMap().isEmpty()) {
 </table>
 <INPUT TYPE=hidden NAME=action VALUE="create">
 </FORM>
-
+</section>
  </div>
 
 
