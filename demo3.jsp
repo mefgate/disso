@@ -141,20 +141,15 @@ if (request.getParameterMap().isEmpty()) {
 <table cellpadding="5" cellspacing="5" style="width: 400px; ">
 	<tbody>
 		<div style="padding-left:600px;padding-bottom:30px;" class="form-group"> 
-        <label for="email_id" class="control-label">Nom complet: </label>
-        <input type="email" class="form-control" id="username" name="username" placeholder="name@domain.com">
-    </div>
+       	 <label for="email_id" class="control-label">Nom complet: </label>
+       	 <input type="email" class="form-control" id="username" name="username" placeholder="name@domain.com">
+    	</div>
 	
 		
-		<tr>
-			<td>
-				&nbsp;</td>
-			<td style="padding-left:600px;">
-				Session:</td>
-			<td>
-				&nbsp;
-			</td>
-			<td>
+		
+
+		<div style="padding-left:600px;padding-bottom:30px;" class="form-group"> 
+       	 <label for="session" class="control-label">Session: </label>
 			<select name="meetingID">
 			<%
 				String key;
@@ -164,9 +159,7 @@ if (request.getParameterMap().isEmpty()) {
 				}
 			%>
 			</select>
-				
-			</td>
-		</tr>
+    	</div>
 		<tr>
 			<td>
 				&nbsp;</td>
