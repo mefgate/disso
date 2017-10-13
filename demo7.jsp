@@ -5,6 +5,7 @@
  <%@ include file="menu.jsp"%>
 
 <section id="contact">
+<h2 align="center">Join & Upload Presentation</h2>
 <FORM class="form-inline" NAME="form1" METHOD="GET">
 <table cellpadding="5" cellspacing="5" style="width: 400px; ">
 	<tbody>
