@@ -137,20 +137,13 @@ if (request.getParameterMap().isEmpty()) {
 <div style="margin: 20px">
 
 <section id="contact">
-<FORM NAME="form1" METHOD="GET">
+<FORM class="form-inline" NAME="form1" METHOD="GET">
 <table cellpadding="5" cellspacing="5" style="width: 400px; ">
 	<tbody>
-		<tr>
-			<td>
-				&nbsp;</td>
-			<td style="padding-left:600px;">
-				Full&nbsp;Name:</td>
-			<td style="width: 5px; ">
-				&nbsp;</td>
-			<td>
-				<input type="text" autofocus required name="username" /></td>
-		</tr>
-		
+		<div class="form-group"> 
+        <label for="email_id" class="control-label">Nom complet</label>
+        <input type="email" class="form-control" id="username" name="username" placeholder="name@domain.com">
+    </div>
 	
 		
 		<tr>
