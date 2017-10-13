@@ -5,7 +5,7 @@
  <%@ include file="menu.jsp"%>
 
 <h2 align="center">Join & Upload Presentation</h2> 
-	 <form action="demo7.jsp" method="post" enctype="multipart/form-data" name="form1" id="form1" style="text-align: center;">
+	 <form action="demo7.jsp" method="post" enctype="multipart/form-data" name="form1" id="form1" style="padding-left:600px;">
 			<table cellpadding="5" cellspacing="5" style="width: 400px;">
 				<tbody>
 					<tr>
