@@ -51,6 +51,7 @@ with BigBlueButton; if not, If not, see <http://www.gnu.org/licenses/>.
 	 #formcreate div{
 		margin-bottom:5px;
 		clear:both;
+		margin-left:600px;
 	 }
 	 #formcreate .submit{
 		margin-left:100px;
