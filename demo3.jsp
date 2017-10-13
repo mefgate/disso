@@ -164,20 +164,10 @@ if (request.getParameterMap().isEmpty()) {
 		<div style="padding-left:600px;padding-bottom:30px;" class="form-group"> 
        	 <label for="password" class="control-label">mot de passe: </label>
        	 <input type="password" class="form-control" id="password" required name="password">
+    			           <button class="btn btn-info btn-lg" type="submit" value="Join">Rejoindre</button>
+
     	</div>
-		<tr>
-			<td>
-				&nbsp;</td>
-			<td>
-				&nbsp;</td>
-			<td>
-				&nbsp;</td>
-			<td>
-				<!-- <input type="submit" value="Join" /></td> -->
-
-	           <button class="btn btn-info btn-lg" type="submit" value="Join">Rejoindre</button>
-
-		</tr>	
+		
 	</tbody>
 </table>
 <INPUT TYPE=hidden NAME=action VALUE="create">
