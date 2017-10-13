@@ -147,9 +147,9 @@ if (request.getParameterMap().isEmpty()) {
 	
 
 
-		<div style="padding-left:610px;padding-bottom:30px;" class="form-group"> 
+		<div style="padding-left:600px;padding-bottom:30px;" class="form-group"> 
        	 <label for="session" class="control-label">Session: </label>
-			<select name="meetingID">
+			<select style="padding-left:10px;"  name="meetingID">
 			<%
 				String key;
 				while (meetingIterator.hasNext()) {
