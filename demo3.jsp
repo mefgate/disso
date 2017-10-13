@@ -141,14 +141,13 @@ if (request.getParameterMap().isEmpty()) {
 <table cellpadding="5" cellspacing="5" style="width: 400px; ">
 	<tbody>
 		<div style="padding-left:600px;padding-bottom:30px;" class="form-group"> 
-       	 <label for="email_id" class="control-label">Nom complet: </label>
-       	 <input type="email" class="form-control" id="username" name="username" placeholder="name@domain.com">
+       	 <label for="name" class="control-label">Nom complet: </label>
+       	 <input type="text" class="form-control" id="username" name="username" placeholder="name@domain.com">
     	</div>
 	
-		
-		
 
-		<div style="padding-left:600px;padding-bottom:30px;" class="form-group"> 
+
+		<div style="padding-left:610px;padding-bottom:30px;" class="form-group"> 
        	 <label for="session" class="control-label">Session: </label>
 			<select name="meetingID">
 			<%
