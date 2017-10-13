@@ -4,39 +4,25 @@
  <%@ include file="bbb_api.jsp"%> 
  <%@ include file="menu.jsp"%>
 
-<h2 align="center">Join & Upload Presentation</h2> 
-	 <form action="demo7.jsp" method="post" enctype="multipart/form-data" name="form1" id="form1" style="padding-left:600px;">
-			<table cellpadding="5" cellspacing="5" style="width: 400px;">
-				<tbody>
-					<tr>
-						<td>&nbsp;</td>
-						<td style="text-align: right;">Full&nbsp;Name:</td>
-						<td style="width: 5px;">&nbsp;</td>
-						<td style="text-align: right"><input type="text" autofocus required 
-							name="username" />
-						</td>
-					</tr>
+<section id="contact">
+<FORM class="form-inline" NAME="form1" METHOD="GET">
+<table cellpadding="5" cellspacing="5" style="width: 400px; ">
+	<tbody>
+		<div style="padding-left:600px;padding-bottom:30px;" class="form-group"> 
+       	 <label for="name" class="control-label">Nom complet: </label>
+       	 <input type="text" class="form-control" id="username" name="username" placeholder="votre nom">
+    	</div>
+
+    	<div style="padding-left:600px;padding-bottom:30px;" class="form-group"> 
+       	  <label for="name" class="control-label">Nom complet: </label>
+          <input type="file" name="filename" />    	
+        </div>
 	
-					<tr>
-						<td>&nbsp;</td>
-						<td style="text-align: right">Upload&nbsp;File:</td>
-						<td style="width: 5px;">&nbsp;</td>
-						<td style="text-align: right"><input type="file"
-							name="filename" /><!--  <input type="submit" / -->
-						</td>
-					</tr>
-	
-					<tr>
-						<td>&nbsp;</td>
-						<td>&nbsp;</td>
-						<td>&nbsp;</td>
-						<td><input type="submit" value="Join" />
-						</td>
-					</tr>
-				</tbody>
-			</table>
-			<INPUT TYPE=hidden NAME=action VALUE="create">
-	</form>
+	</tbody>
+</table>
+<INPUT TYPE=hidden NAME=action VALUE="create">
+</FORM>
+</section>
  </body>
 </html>
   
