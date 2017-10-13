@@ -18,13 +18,11 @@
           <input type="file" name="filename" />    	
         </div>
 
-	</tbody>
-
-	
-        <div style="padding-left:600px;padding-bottom:30px;" class="form-group"> 
+        <div style="padding-right:600px;padding-bottom:30px;" class="form-group"> 
        	   <button class="btn btn-info btn-lg" type="submit" value="Join">Rejoindre</button>
         </div>
 	
+	</tbody>
 </table>
 <INPUT TYPE=hidden NAME=action VALUE="create">
 </FORM>
