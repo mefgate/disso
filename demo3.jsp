@@ -142,7 +142,7 @@ if (request.getParameterMap().isEmpty()) {
 	<tbody>
 		<div style="padding-left:600px;padding-bottom:30px;" class="form-group"> 
        	 <label for="name" class="control-label">Nom complet: </label>
-       	 <input type="text" class="form-control" id="username" name="username" placeholder="name@domain.com">
+       	 <input type="text" class="form-control" id="username" name="username" placeholder="votre nom">
     	</div>
 	
 
@@ -159,16 +159,12 @@ if (request.getParameterMap().isEmpty()) {
 			%>
 			</select>
     	</div>
-		<tr>
-			<td>
-				&nbsp;</td>
-			<td style="padding-left:600px; padding-top: 40px;">
-				Password:</td>
-			<td>
-				&nbsp;</td>
-			<td>
-				<input type="password" required name="password" /></td>
-		</tr>
+		
+
+		<div style="padding-left:600px;padding-bottom:30px;" class="form-group"> 
+       	 <label for="password" class="control-label">mot de passe: </label>
+       	 <input type="password" class="form-control" id="password" required name="password">
+    	</div>
 		<tr>
 			<td>
 				&nbsp;</td>
