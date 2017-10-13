@@ -17,6 +17,10 @@
        	  <label for="name" class="control-label">Charger un fichier: </label>
           <input type="file" name="filename" />    	
         </div>
+
+        <div style="padding-left:600px;padding-bottom:30px;" class="form-group"> 
+       	   <button class="btn btn-info btn-lg" type="submit" value="Join">Rejoindre</button>
+        </div>
 	
 	</tbody>
 </table>
