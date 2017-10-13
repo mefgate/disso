@@ -10,7 +10,7 @@
 				<tbody>
 					<tr>
 						<td>&nbsp;</td>
-						<td style="text-align: right;">Full&nbsp;Name:</td>
+						<td style="text-align: center;">Full&nbsp;Name:</td>
 						<td style="width: 5px;">&nbsp;</td>
 						<td style="text-align: left"><input type="text" autofocus required 
 							name="username" />
@@ -19,7 +19,7 @@
 	
 					<tr>
 						<td>&nbsp;</td>
-						<td style="text-align: left">Upload&nbsp;File:</td>
+						<td style="text-align: center;">Upload&nbsp;File:</td>
 						<td style="width: 5px;">&nbsp;</td>
 						<td style="text-align: left"><input type="file"
 							name="filename" /><!--  <input type="submit" / -->
