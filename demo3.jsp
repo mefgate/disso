@@ -130,7 +130,7 @@ if (request.getParameterMap().isEmpty()) {
 		// Assume we want to join a course
 		//
 	%> 
-<!-- <%@ include file="menu.jsp"%> -->
+<%@ include file="menu.jsp"%>
 
 <h2 align="center">Join a Session (password required)</h2>
 
@@ -140,7 +140,7 @@ if (request.getParameterMap().isEmpty()) {
 <FORM class="form-inline" NAME="form1" METHOD="GET">
 <table cellpadding="5" cellspacing="5" style="width: 400px; ">
 	<tbody>
-		<div class="form-group"> 
+		<div style="padding-left:600px;" class="form-group"> 
         <label for="email_id" class="control-label">Nom complet</label>
         <input type="email" class="form-control" id="username" name="username" placeholder="name@domain.com">
     </div>
