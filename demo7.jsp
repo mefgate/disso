@@ -18,7 +18,7 @@
           <input type="file" name="filename" />    	
         </div>
 
-        <div class="form-group"> <!-- Submit button !-->
+        <div style="padding-left:600px;padding-bottom:30px;" class="form-group"> <!-- Submit button !-->
 			<button type="submit" value="Join" class="btn btn-primary">Rejoindre</button>
 		</div>
 	
